@@ -1,0 +1,22 @@
+Method-1 : Using temp variable
+
+int a=3;
+int b=5;
+int temp = a ;
+a = b ;
+b = temp ;
+
+
+Method-2 : Using XOR operator
+
+int a=3,b=5;
+a=a^b;
+b=a^b;
+a=a^b;
+
+
+Method-3 : Using Arithmetic Operations
+int a=3,b=5;
+a=a+b;
+b=a-b;
+a=a-b;
